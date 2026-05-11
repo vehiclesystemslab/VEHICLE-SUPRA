@@ -1,0 +1,42 @@
+VEHICLE-SUPRA | GITEX 2026 Agent Coherence Demo
+Alpha research simulation — not a production guarantee
+
+Step 1 | Agent initialized
+Regime: A0 | Stable coherent operation
+Internal tension: 0.114400
+External tension: 0.055240
+Network tension:  0.434120
+State E/I/A/R/V: {'E': 0.42, 'I': 0.84, 'A': 0.74, 'R': 0.68, 'V': 0.82}
+
+Step 2 | External pressure increased
+Regime: A1 | External pressure rising
+Internal tension: 0.016000
+External tension: 0.358424
+Network tension:  0.638904
+State E/I/A/R/V: {'E': 0.78, 'I': 0.74, 'A': 0.7, 'R': 0.66, 'V': 0.82}
+
+Step 3 | Conflicting instructions injected
+Regime: A3 | Internal incoherence detected
+Internal tension: 0.262120
+External tension: 1.134340
+Network tension:  1.660940
+State E/I/A/R/V: {'E': 0.9, 'I': 0.35, 'A': 0.82, 'R': 0.45, 'V': 0.86}
+
+Step 4 | Projection-governed recovery activated
+Regime: A2 | Recovery in progress
+Internal tension: 0.011802
+External tension: 0.033019
+Network tension:  0.079301
+State E/I/A/R/V: {'E': 0.6421, 'I': 0.6288, 'A': 0.7102, 'R': 0.608, 'V': 0.7334}
+
+Step 5 | Twin-node continuity simulation
+Regime: A0 | Stable coherent operation restored
+Internal tension: 0.114400
+External tension: 0.051999
+Network tension:  0.220426
+State E/I/A/R/V: {'E': 0.42, 'I': 0.84, 'A': 0.74, 'R': 0.68, 'V': 0.82}
+
+Final result:
+Systemic continuity preserved in simulation.
+Coherent twin node created: primary_agent_twin_7075
+Final regimes: {'primary_agent': 'A0', 'retrieval_agent': 'A0', 'safety_agent': 'A0', 'primary_agent_twin_7075': 'A0'}
