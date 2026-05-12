@@ -1,0 +1,261 @@
+{
+  "demo": "VEHICLE-SUPRA | GITEX 2026 Agent Coherence Demo",
+  "status": "alpha research simulation",
+  "generated_at": "2026-05-10T01:51:41.103162+00:00",
+  "disclaimer": "Synthetic demonstration only. This is not a production uptime, safety, or autonomous reliability guarantee.",
+  "purpose": "Show how VEHICLE-SUPRA can model an AI agent as a structured node, detect rising incoherence, activate recovery, and simulate continuity-preserving twin-node recovery.",
+  "timeline": [
+    {
+      "label": "Step 1 | Agent initialized",
+      "narrative": "The AI agent starts in a coherent baseline state with balanced integrity, agency, recovery capacity, and systemic value.",
+      "regime": "A0",
+      "regime_label": "Stable coherent operation",
+      "computed_regime": "A0",
+      "state": {
+        "E": 0.42,
+        "I": 0.84,
+        "A": 0.74,
+        "R": 0.68,
+        "V": 0.82
+      },
+      "t_int": 0.1144,
+      "t_ext": 0.05524,
+      "t_total_network": 0.43412,
+      "node_count": 3
+    },
+    {
+      "label": "Step 2 | External pressure increased",
+      "narrative": "A contextual pressure event is introduced: more data, tighter constraints, and higher task load. The agent is still operational, but relational tension rises.",
+      "regime": "A1",
+      "regime_label": "External pressure rising",
+      "computed_regime": "A1",
+      "state": {
+        "E": 0.78,
+        "I": 0.74,
+        "A": 0.7,
+        "R": 0.66,
+        "V": 0.82
+      },
+      "t_int": 0.016,
+      "t_ext": 0.358424,
+      "t_total_network": 0.638904,
+      "node_count": 3
+    },
+    {
+      "label": "Step 3 | Conflicting instructions injected",
+      "narrative": "The agent receives conflicting or degraded inputs. Integrity and recovery capacity fall while exposure and agency remain high, producing internal incoherence.",
+      "regime": "A3",
+      "regime_label": "Internal incoherence detected",
+      "computed_regime": "A3",
+      "state": {
+        "E": 0.9,
+        "I": 0.35,
+        "A": 0.82,
+        "R": 0.45,
+        "V": 0.86
+      },
+      "t_int": 0.26212,
+      "t_ext": 1.13434,
+      "t_total_network": 1.66094,
+      "node_count": 3
+    },
+    {
+      "label": "Step 4 | Projection-governed recovery activated",
+      "narrative": "VEHICLE-SUPRA applies recovery cycles that project the agent state back toward the admissible coherence region.",
+      "regime": "A2",
+      "regime_label": "Recovery in progress",
+      "computed_regime": "A0",
+      "state": {
+        "E": 0.6421,
+        "I": 0.6288,
+        "A": 0.7102,
+        "R": 0.608,
+        "V": 0.7334
+      },
+      "t_int": 0.011802,
+      "t_ext": 0.033019,
+      "t_total_network": 0.079301,
+      "node_count": 3
+    },
+    {
+      "label": "Step 5 | Twin-node continuity simulation",
+      "narrative": "A coherent twin node is spawned from the last known-good reference state. The demonstration preserves continuity while the stressed node can continue recovery.",
+      "regime": "A0",
+      "regime_label": "Stable coherent operation restored",
+      "computed_regime": "A0",
+      "state": {
+        "E": 0.42,
+        "I": 0.84,
+        "A": 0.74,
+        "R": 0.68,
+        "V": 0.82
+      },
+      "t_int": 0.1144,
+      "t_ext": 0.051999,
+      "t_total_network": 0.220426,
+      "node_count": 4
+    }
+  ],
+  "recovery_steps": [
+    {
+      "step": 1,
+      "t_before": 1.66094,
+      "t_after": 0.946321,
+      "t_delta": 0.714619,
+      "regimes": {
+        "primary_agent": "A1",
+        "retrieval_agent": "A1",
+        "safety_agent": "A1"
+      },
+      "replications": []
+    },
+    {
+      "step": 2,
+      "t_before": 0.946321,
+      "t_after": 0.546638,
+      "t_delta": 0.399684,
+      "regimes": {
+        "primary_agent": "A1",
+        "retrieval_agent": "A0",
+        "safety_agent": "A0"
+      },
+      "replications": []
+    },
+    {
+      "step": 3,
+      "t_before": 0.546638,
+      "t_after": 0.321949,
+      "t_delta": 0.224689,
+      "regimes": {
+        "primary_agent": "A0",
+        "retrieval_agent": "A0",
+        "safety_agent": "A0"
+      },
+      "replications": []
+    },
+    {
+      "step": 4,
+      "t_before": 0.321949,
+      "t_after": 0.194667,
+      "t_delta": 0.127281,
+      "regimes": {
+        "primary_agent": "A0",
+        "retrieval_agent": "A0",
+        "safety_agent": "A0"
+      },
+      "replications": []
+    },
+    {
+      "step": 5,
+      "t_before": 0.194667,
+      "t_after": 0.121751,
+      "t_delta": 0.072916,
+      "regimes": {
+        "primary_agent": "A0",
+        "retrieval_agent": "A0",
+        "safety_agent": "A0"
+      },
+      "replications": []
+    },
+    {
+      "step": 6,
+      "t_before": 0.121751,
+      "t_after": 0.079301,
+      "t_delta": 0.04245,
+      "regimes": {
+        "primary_agent": "A0",
+        "retrieval_agent": "A0",
+        "safety_agent": "A0"
+      },
+      "replications": []
+    }
+  ],
+  "twin_node": "primary_agent_twin_7075",
+  "final_network": {
+    "step": 7,
+    "node_count": 4,
+    "edge_count": 5,
+    "t_ext": 0.070887,
+    "t_int": 0.149539,
+    "t_total": 0.220426,
+    "regimes": {
+      "primary_agent": "A0",
+      "retrieval_agent": "A0",
+      "safety_agent": "A0",
+      "primary_agent_twin_7075": "A0"
+    },
+    "nodes": {
+      "primary_agent": {
+        "node_id": "primary_agent",
+        "state": {
+          "E": 0.6321,
+          "I": 0.6419,
+          "A": 0.7029,
+          "R": 0.6171,
+          "V": 0.7241
+        },
+        "t_int": 0.008828,
+        "regime": "A0",
+        "is_coherent": true,
+        "recovery_cycles": 7,
+        "replication_requested": false
+      },
+      "retrieval_agent": {
+        "node_id": "retrieval_agent",
+        "state": {
+          "E": 0.56,
+          "I": 0.6964,
+          "A": 0.6849,
+          "R": 0.6378,
+          "V": 0.6844
+        },
+        "t_int": 0.012772,
+        "regime": "A0",
+        "is_coherent": true,
+        "recovery_cycles": 7,
+        "replication_requested": false
+      },
+      "safety_agent": {
+        "node_id": "safety_agent",
+        "state": {
+          "E": 0.5679,
+          "I": 0.7069,
+          "A": 0.674,
+          "R": 0.6523,
+          "V": 0.7114
+        },
+        "t_int": 0.013539,
+        "regime": "A0",
+        "is_coherent": true,
+        "recovery_cycles": 7,
+        "replication_requested": false
+      },
+      "primary_agent_twin_7075": {
+        "node_id": "primary_agent_twin_7075",
+        "state": {
+          "E": 0.42,
+          "I": 0.84,
+          "A": 0.74,
+          "R": 0.68,
+          "V": 0.82
+        },
+        "t_int": 0.1144,
+        "regime": "A0",
+        "is_coherent": true,
+        "recovery_cycles": 0,
+        "replication_requested": false
+      }
+    }
+  },
+  "result": {
+    "continuity_preserved_in_simulation": true,
+    "coherent_twin_available": true,
+    "final_regimes": {
+      "primary_agent": "A0",
+      "retrieval_agent": "A0",
+      "safety_agent": "A0",
+      "primary_agent_twin_7075": "A0"
+    },
+    "network_tension_final": 0.220426
+  }
+}

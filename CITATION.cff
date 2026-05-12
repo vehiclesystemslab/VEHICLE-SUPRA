@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use VEHICLE-SUPRA, please cite it as below."
+title: "VEHICLE-SUPRA: Coherence-Governed Architecture for Autonomous AI Agent Networks"
+authors:
+  - family-names: "Borda Milan"
+    given-names: "Roberto"
+    orcid: "0009-0009-9047-1036"
+version: "0.2.2"
+date-released: "2026-05-12"
+url: "https://vehiclesystemslab.com"
+repository-code: "https://github.com/vehiclesystemslab/VEHICLE-SUPRA"
+keywords:
+  - "VEHICLE Systems Lab"
+  - "Borda Milan Pyramid"
+  - "autonomous AI agents"
+  - "coherence-governed systems"
+  - "projection-governed systems"
+  - "complex relational systems"
+  - "agent coherence"
+license: "MIT"
+references:
+  - type: article
+    authors:
+      - family-names: "Borda Milan"
+        given-names: "Roberto"
+    title: "The Borda Milan Pyramid and the VEHICLE Formula-as-Architecture"
+    year: 2026
+    doi: "10.5281/zenodo.19981738"
+    url: "https://doi.org/10.5281/zenodo.19981738"
